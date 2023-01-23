@@ -20,12 +20,12 @@ const [list, setList] = useState([])
 
 return(
    <Box sx={{ width: 300, height: 300,}}>
-   <Card><CardContent><Typography variant="h5" component="div">User List</Typography></CardContent></Card>
+   <Card><CardContent><Typography variant="h4" component="div">User List</Typography></CardContent></Card>
    <List> 
    <TextField Fullwidth variant='outlined' Label='Add new user' value={user.name} onChange={e => setUser({name: e.target, catagory: user.catagory, lastlogin: randomUpdatedDate(),})} required />
    <br></br>
    <FormControl fullWidth>
-        <InputLabel id="demo-simple-select-label">Age</InputLabel>
+        <InputLabel id="demo-simple-select-label">catagory</InputLabel>
    <Select
     labelId="demo-simple-select-label"
     id="demo-simple-select"
@@ -50,9 +50,9 @@ return(
       </List>
       <form>
       <FormGroup>
-                    <Stack direction="row" spacing={4} name='note' sx={{ m: 1 }}>
+                    <Stack direction="row" spacing={5} name='user' sx={{ m: 2 }}>
                     </Stack>
-                </FormGroup>
+      </FormGroup>
       </form>
    </Box>
 )
