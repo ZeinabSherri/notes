@@ -4,11 +4,6 @@ import Notes from './components/Notes';
 import Lists from './components/Lists';
 import Secondlist from './components/Secondlist';
 
-
-
-
-
-
 function App() {
   return (
    <div>
