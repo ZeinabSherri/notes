@@ -1,9 +1,11 @@
 import Create from './components/Create';
-import Radio from './components/Radio'
-import Notes from './components/Notes'
-import Lists from './components/Lists'
-import DataTable from './components/DataTable';
-import Data from './components/Data';
+import Radio from './components/Radio';
+import Notes from './components/Notes';
+import Lists from './components/Lists';
+import Secondlist from './components/Secondlist';
+
+
+
 
 
 
@@ -14,8 +16,7 @@ function App() {
  <Radio/> <br></br>
  <Notes/> <br></br>
  <Lists/> <br></br>
-<DataTable/> <br></br>
-<Data/>
+<Secondlist/>
    </div>
   );
 }
